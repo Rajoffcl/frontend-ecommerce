@@ -1,0 +1,113 @@
+/* Container Styling */
+.container {
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form Styling */
+.well {
+  background-color: rgba(6, 5, 5, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+}
+
+legend {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.inputGroupContainer {
+  position: relative;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.input-group-addon {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 0;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Select Styling */
+.selectContainer .input-group {
+  width: 100%;
+}
+
+.selectpicker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+/* Button Styling */
+.btn-warning {
+  background-color: #f39c12;
+  color: white;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e08e0b;
+}
+
+/* Success Message Styling */
+.alert-success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-color: #d6e9c6;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .well {
+    padding: 15px;
+  }
+
+  legend {
+    font-size: 20px;
+  }
+
+  .btn-warning {
+    width: 100%;
+  }
+
+  .form-control,
+  .selectpicker {
+    font-size: 14px;
+  }
+}
