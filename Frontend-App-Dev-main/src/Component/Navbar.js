@@ -1,4 +1,4 @@
-import logo from "../assets/Images/prime pickbg.png";
+import logo from "../assets/primechoice-high-resolution-logo-white (1).png";
 
 
 const Navbar=()=>
